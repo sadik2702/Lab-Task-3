@@ -2,7 +2,7 @@
 	font-family: "Shantell Sans", cursive;
 }
 .main {
-	height: 800px;
+	height: fit-content;
 	margin: 0;
 }
 .nav {
@@ -32,9 +32,6 @@
 	margin: 0;
 }
 
-.navTitle:hover {
-	display: none;
-}
 .icon img {
 	height: 100px;
 	width: 100px;
@@ -46,9 +43,7 @@
 	border-radius: 5px;
 	height: 150px;
 }
-.icon :hover {
-	display: none;
-}
+
 .img-1 {
 	margin: 0;
 	height: 150px;
@@ -114,7 +109,9 @@
 		#b92b27
 	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-#bg-html{
+#bg-html {
 	height: 800px;
 	width: 100%;
+	display: block;
+	border-radius: 5px;
 }
